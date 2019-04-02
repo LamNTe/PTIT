@@ -1,0 +1,64 @@
+body{
+font-family: Tahoma;
+font-size: 18px;
+width: 1000px;
+margin: 0px auto;	
+background: url('nature.jpg') ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 650px;
+}
+#main{
+	margin: 150px auto;
+}
+#menu_top{
+	height: 50px;
+    text-align: center;
+}
+#main #left{
+	
+	width: 500px;
+	float: left;
+	min-height: 400px;
+	text-align: center;
+	color:black;
+}
+#main #left img{
+	width:250px;
+	height:200px;
+	
+}
+#main #right{
+	width: 500px;
+	float: left;
+	min-height: 400px;
+    text-align: left;
+	
+}
+#menu_top ul {
+list-style-type: none;
+overflow: hidden;
+text-align: center;
+}
+#menu_top ul li{
+	list-style-type: none;
+	float: left;
+	display: inline-table;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	padding: 5px 30px;
+
+}
+#menu_top ul li a{
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	color:white;
+	font-family: Arial;
+}
+#menu_top ul li a:hover{
+	color:green;
+	background-color:#04a3e2;
+}
